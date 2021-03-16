@@ -1,0 +1,179 @@
+
+.sol{
+    margin-top: 181px;
+
+}
+.sol h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sol p{
+    font-size: 15px;
+    color: #727272;
+}
+.sol button{
+    background: #FA141B;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 22px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sol-img-box{
+    position: relative;
+}
+.sol-img-box img{
+    height: 345px;
+    left: -141px;
+    position: absolute;
+}
+
+.catogrires{
+    margin-top: 100px;
+}
+.catogrires img {
+    max-width: 100%;
+}
+.cato-box{
+    padding-top: 57px;
+    padding-left: 64px;
+    margin-bottom: 20px;
+
+}
+.cato-box h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+.cato-box p{
+    font-size: 15px;
+    color: #727272;
+    margin: 23px 0;
+}
+.cato-box button{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 65px;
+    padding: 10px 30px;
+}
+img.sp1{
+    width: 291px;
+}
+h3.sp2{
+    margin-top: 55px !important;
+}
+.c1{
+    background-color: rgba(0, 196, 211, .1);
+
+}
+.c1 button{
+    background-color: #00C4D3;
+}
+.c2{
+    background-color: rgba(250, 175, 0, .1);
+
+}
+.c2 button{
+    background-color: #FAAF00;
+}
+.c3{
+    background-color: rgba(80, 177, 93, .1);
+
+}
+.c3 button{
+    background-color:#50B15D
+}
+.c4{
+    background-color: rgba(146, 42, 221, .1);
+
+}
+.c4 button{
+    background-color: #922ADD
+}
+.c5{
+    background-color: rgba(255, 24, 139, .1);
+
+
+}
+.c5 button{
+    background-color: #FF188B
+}
+
+
+.bites{
+    background-color: #42AA4E;
+    margin-top: 100px;
+    overflow: hidden;
+    color: white;
+    min-height: 300px;
+    padding: 70px 10px 61px 140px;
+}
+.bites h1{
+    font-size: 47px;
+    font-weight: bold;
+}
+.bites p{
+    font-size: 16px;
+}
+.bites button{
+    border: none;
+    font-size: 16px;
+    background: #FAAF00;
+    padding: 12px 30px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 23px;
+    font-weight: bold;
+}
+.bites .image{
+    position: relative;
+    min-height: 205px;
+}
+.bites .image img{
+    position: absolute;
+    max-width: 100%;
+    left: -50px;
+
+}
+@media screen and (max-width:768px){
+    .sol-img-box {
+        margin-top: 38px;
+        min-height: 263px;
+        margin-left: 38px;
+       
+    }
+        .sol-img-box  img {
+            left: -55px !important;}
+    }
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .sol-img-box img {
+        height: 345px;
+        left: -35px;
+        width: 393px;
+       
+    }
+    img.sp1 {
+        width: 205px;
+    }
+    h3.sp2 {
+        margin-top: 98px !important;
+    }
+    .bites .image img {
+       
+        margin-top: 116px;
+    }
+    .bites {
+      
+       padding: 27px 10px 61px 111px;
+    }
+    
+
+.bites h1 {
+    font-size: 29px;
+    margin-top: 70px;
+}
+}

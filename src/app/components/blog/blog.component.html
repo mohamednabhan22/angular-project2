@@ -1,0 +1,44 @@
+<div class="blog "><div class="container">
+    <div class="head d-flex"><h1>Blog</h1> <span >filter by </span>
+    </div>
+    <div class="filters">
+        <ul class="d-flex list-unstyled">
+            <li>
+                <select (change)="filterByTopic()" class="form-control" [(ngModel)]="selectedTopic" >
+                    <option disabled  value="all" >topic</option>
+                    <option value="sport" >sport</option>
+                    <option value="programing" >programing</option>
+                    <option value="medicine" >medicine</option>
+
+                </select>
+            </li>
+            <li>
+                <select (change)="filterByAuthor()" class="form-control"  [(ngModel)]="selectedAuthor" >
+                    <option disabled  value="all" >Author</option>
+                    <option value="ahmed" >ahmed</option>
+                    <option value="ali" >ali</option>
+                    <option value="slem" >slem</option>
+
+                </select>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let blog of blogs| slice:firstCount:lastCount">
+        <div class="img-blog">
+          <img [src]=blog.img alt="">
+          <button>{{blog.Date}}</button>
+        </div>
+        <h2>{{blog.topic}}</h2>
+        <h2>{{blog.Author}}</h2>
+        <p>Drive visibility into performance and work toward common <br> goals across the organization <br>
+          with transparency and accountability—allowing you to you <br> always stay one step ahead of competition.
+          </p>
+      </div>
+     
+    </div>
+    <button *ngIf="lastCount<16" (click)="lastCount=29"   class="btn btn-primary b">show more</button>
+   
+    
+  </div>  </div>

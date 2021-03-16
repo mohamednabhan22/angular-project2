@@ -1,0 +1,252 @@
+
+.about{
+    padding-top: 180px;
+    padding-bottom: 50px;
+    min-height: 300px;
+    background-color: #F7F7F7;
+}
+.about-box1{
+    min-height: 470px;
+}
+.about-box1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 31px;
+}
+.about-box1 h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.about-box1 p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.about-img-box{
+    position: relative;
+    margin-top: 27px;
+    min-height: 300px;
+
+   
+}
+
+.about-img-box img{
+    max-width: 100%;
+    margin-left: 40px;
+    height: 413px;
+    max-width: 100%;
+  
+    
+}
+
+    .about p{
+        font-size: 18px;
+        color: #02064F;
+
+    }
+.choose{
+    background-color: rgba(250, 175, 0, .1);
+    margin-top: 37px;
+}
+    .choose-box{
+        margin-top: 84px;
+        padding: 0 50px 70px 84px;
+
+         }
+    .choose-box h2{
+        margin-top: 150px;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 26px;
+        color: black;
+    }
+    .choose-box p{
+        margin-bottom: 25px;
+        color: #727272;
+        font-size: 13px;
+    }
+    .values{
+        text-align: center;
+        margin-top: 90px;
+    }
+    .values h1{
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .values p{
+        color: #727272;
+        margin-bottom: 70px;
+        font-size: 18px;
+    }
+    .value-box h3{
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .value-box p{
+        color: black;
+        font-size: 15px;
+    }
+
+    .diff{
+        background-color: #922ADD;
+        min-height: 100px;
+        padding-bottom: 129px;
+        color: white;
+    }   
+    .diff-box{
+        padding-top: 98px;
+    padding-left: 80px;
+    }
+    .diff-box h1{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .diff-box p{
+        margin: 16px 0;
+        font-size: 12px;    }
+    .diff-box button{
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        margin-top: 17px;
+        color: white;
+        padding: 10px 27px;
+        border-radius: 22px;
+        background-color: #FAAF00;
+    }
+    .diff-img-box{position: relative;}
+    .diff img{
+        position: absolute;
+        top: 79px;
+        left: 0;
+        max-width: 100%;
+    }
+    .team {
+        text-align: center;
+        margin-top: 70px;
+    }
+    .team h1{
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .team p{
+        margin-bottom: 47px;
+        font-size: 16px;
+        color: #585858;
+    }
+    .team img{
+        max-width: 100%;
+    }
+    .team-box{
+        margin-bottom: 20px;
+    }
+    .customer{
+        margin-top: 70px;
+        text-align: center;
+        padding: 90px;
+        background-color: #F7F7F7;
+        min-height: 300px;
+    }
+    .customer h1{
+        font-weight: 400;
+        font-size: 48px;
+        margin-bottom: 48px;
+    }
+    .customer img{
+        max-width: 100%;
+    }
+    .info{
+        margin-top: 122px;
+    }
+    .info-box h1{
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .info-box p{
+        font-size: 16px;
+        color: #585858;
+    }
+    .info-box button{
+        
+    background: #FAAF00;
+    font-size: 16px;
+    border-radius: 22px;
+    border: none;
+    margin-top: 32px;
+    padding: 12px 60px 12px 40px;
+    color: white;
+
+    }
+    .info img{
+        max-width: 100%;
+        margin-top: -40px;
+
+    }
+
+    @media screen and (max-width:768px){
+        .about-img-box img{
+
+            margin-left: 0;
+        }
+      .choose-box img{
+        width: 398px;
+
+      }
+      .choose-box h2 {margin-top: 0;}
+      
+
+.about-box1 h1 {
+    font-size: 40px;}
+    .about p {
+        font-size: 16px;}
+        .diff-box p {
+            font-size: 10px;
+        }
+        .diff-img-box {
+            
+            min-height: 271px;
+        }
+        .team p {
+            margin-bottom: 47px;
+            font-size: 13px;}
+
+            .customer h1 {
+                font-size: 40px;
+              
+            }
+            .info-box{
+                min-height: 490px;
+
+            }
+
+    }
+    @media screen and (min-width:768px) and (max-width:992px){
+        .about-box1 h1 {
+            font-size: 29px;
+           
+        }
+        .about-box1 h3 {
+            font-size: 22px;}
+
+            .about p {
+                font-size: 11px;
+                color: #02064F;
+            }
+            .choose-box img{
+                width: 304px;
+
+            }
+            .choose-box h2 {
+              
+                font-size: 30px;
+            }
+            .choose-box p {
+                font-size: 10px;
+            }
+            .info-box p {
+                font-size: 11px;
+            }
+    }

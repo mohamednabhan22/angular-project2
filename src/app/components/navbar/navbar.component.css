@@ -1,0 +1,51 @@
+nav{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    margin-bottom: 4px !important; 
+    display: block;
+    height: 2px;
+}
+.navbar-toggler{padding: 10px ; background-color: #17A355;  
+}
+.navbar-brand img{
+    width: 66%;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    margin-left: 36px;
+    transition: all .4s ease-in-out;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    color:#CC0813;
+}
+
+nav ul button{
+    margin-left: 66px;
+    font-size: 12px;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    border-radius: 23px;
+    color: black;
+    border: none;
+    transition: all .4s ease-in-out;
+
+}
+nav ul button img{margin-right: 5px;}
+nav ul button:hover{
+    background-color: transparent;
+    color: #CC0813;
+    border: 1px solid #CC0813 ;
+}
+@media screen and (max-width:990px){
+    .login{margin-top: 2%;}
+    .login img{width: 7%;margin-top:2%;}
+    .login button{width:30% !important;height: 30%;margin-top: 2%;}
+}

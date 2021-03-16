@@ -1,0 +1,64 @@
+.blog{
+    margin-top: 136px;
+
+}
+.blog h1{
+    font-size: 60px;
+    margin-bottom: 42px;
+    font-weight: 400;
+}
+.blog span{
+    margin-top: 50px;
+    margin-left: 332px;
+}
+.blog img{
+    max-width: 100%;
+}
+.img-blog{
+    position: relative;
+}
+.img-blog button{
+    position: absolute;
+    top: 189px;
+    padding: 5px 31px;
+    height: 40px;
+    font-weight: 400;
+    left: 10px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+.blog h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+.blog p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.filters ul{
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+.filters ul li{
+    margin-right: 30px;
+    width: 200px;
+}
+.blog button.b{
+    margin: 40px auto;
+    display: block;
+}
+@media screen and (max-width:768px){
+    .blog span {
+margin-left: 20%;
+}
+
+.filters select.form-control{
+  padding: 0;
+}
+.img-blog button {
+ 
+    left: 209px;
+}
+}
